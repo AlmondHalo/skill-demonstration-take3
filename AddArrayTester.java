@@ -7,6 +7,6 @@ public class AddArrayTester {
     @Test
     public void AddArrayTest() {
         obj.addArray(1);
-        assertEquals(2, obj.array.get(0));
+        assertEquals(1, obj.array.get(0));
     }
  }
